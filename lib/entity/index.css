@@ -1,0 +1,13 @@
+
+.SirenEntity em {
+  padding: .3em;
+  background-color: yellow;
+}
+
+.SirenEntity em::before {
+  content: '(';
+}
+
+.SirenEntity em::after {
+  content: ')';
+}

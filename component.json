@@ -1,0 +1,9 @@
+{
+  "name": "dominicbarnes/deku-siren-entity",
+  "version": "0.0.0",
+  "dependencies": {
+    "dekujs/virtual-element": "*",
+    "ianstormtaylor/map": "*",
+    "segmentio/is-url": "*"
+  }
+}

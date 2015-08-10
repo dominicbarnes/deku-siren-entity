@@ -1,0 +1,11 @@
+.SirenProperties table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.SirenProperties th,
+.SirenProperties td {
+  text-align: left;
+  border: 1px solid #999;
+  padding: 0.5rem;
+}
