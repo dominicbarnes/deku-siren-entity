@@ -1,6 +1,6 @@
 {
   "name": "dominicbarnes/deku-siren-entity",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "dekujs/virtual-element": "*",
     "ianstormtaylor/map": "*",
