@@ -1,0 +1,43 @@
+
+@import 'suitcss/components-button';
+
+.SirenAction {
+  border: 1px solid silver;
+  margin-bottom: 1rem;
+}
+
+.SirenAction h1 {
+  padding: .5rem;
+  background-color: #eee;
+  border-bottom: 1px solid silver;
+}
+
+.SirenAction-fields {
+  padding: .5rem;
+}
+
+.SirenAction-fields .FormField {
+  margin-bottom: .5rem;
+}
+
+.SirenAction-fields input,
+.SirenAction-fields textarea,
+.SirenAction-fields select {
+  width: 100%;
+  padding: .5rem;
+}
+
+.SirenAction-fields .FormField:last-of-type {
+  margin-bottom: 0;
+}
+
+.SirenAction-submit {
+  padding: .5rem;
+}
+
+.SirenAction-submit .Button {
+  width: 100%;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}

@@ -1,5 +1,6 @@
 
-@import "./lib/actions";
-@import "./lib/entity";
-@import "./lib/entities";
-@import "./lib/properties";
+@import './lib/entity';
+@import './lib/properties';
+@import './lib/action';
+@import './lib/embedded-resource';
+@import './lib/link';

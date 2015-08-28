@@ -2,8 +2,11 @@
   "name": "dominicbarnes/deku-siren-entity",
   "version": "0.0.1",
   "dependencies": {
-    "dekujs/virtual-element": "*",
+    "component/url": "*",
     "ianstormtaylor/map": "*",
-    "segmentio/is-url": "*"
+    "dekujs/magic-virtual-element": "*",
+    "dekujs/virtual-element": "*",
+    "dominicbarnes/deku-forms": "*",
+    "dominicbarnes/deku-grid": "*"
   }
 }

@@ -1,0 +1,18 @@
+
+.SirenLink {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.SirenLink thead {
+  background-color: #eee;
+}
+
+.SirenLink th,
+.SirenLink td {
+  text-align: left;
+  border: 1px solid #999;
+  padding: 0.5rem;
+}

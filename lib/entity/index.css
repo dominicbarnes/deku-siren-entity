@@ -1,6 +1,33 @@
 
+@import 'suitcss/components-grid';
+@import 'suitcss/utils-size';
+
+.SirenEntity {
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+.SirenEntity * {
+  box-sizing: border-box;
+}
+
+.SirenEntity section {
+  margin-bottom: 1rem;
+}
+
+.SirenEntity h1 {
+  font-size: 2rem;
+}
+
+.SirenEntity section h1 {
+  font-size: 1.5rem;
+}
+
+.SirenEntity section section h1 {
+  font-size: 1rem;
+}
+
 .SirenEntity em {
-  padding: .3em;
+  padding: .2rem;
   background-color: yellow;
 }
 
