@@ -1,0 +1,11 @@
+
+@import 'necolas/normalize.css';
+@import '..';
+
+html, body {
+  font-size: 12px;
+}
+
+body {
+  padding: 1em;
+}

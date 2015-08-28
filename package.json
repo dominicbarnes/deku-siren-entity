@@ -5,13 +5,17 @@
   "repository": "dominicbarnes/deku-siren-entity",
   "dependencies": {},
   "devDependencies": {
-    "@dominicbarnes/eslint-config": "0.0.3",
-    "@dominicbarnes/eslint-config-browser": "0.0.3",
-    "@dominicbarnes/eslint-config-deku": "0.0.3",
+    "@dominicbarnes/eslint-config": "*",
+    "@dominicbarnes/eslint-config-browser": "*",
+    "@dominicbarnes/eslint-config-deku": "*",
+    "duo-babel": "^6.0.0",
+    "duo-myth": "^0.2.0",
+    "duo-serve": "^0.14.5",
     "eslint": "^1.1.0",
     "eslint-plugin-react": "^3.2.1"
   },
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "start": "duo-serve -u duo-babel -u duo-myth example/index.{js,css}"
   }
 }
