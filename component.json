@@ -1,6 +1,6 @@
 {
   "name": "dominicbarnes/deku-siren-entity",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "dependencies": {
     "component/url": "*",
     "ianstormtaylor/map": "*",
