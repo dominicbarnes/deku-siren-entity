@@ -16,6 +16,6 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "duo-serve -u duo-babel -u duo-myth example/index.{js,css}"
+    "start": "duo-serve -u duo-babel,duo-myth example/index.{js,css}"
   }
 }
