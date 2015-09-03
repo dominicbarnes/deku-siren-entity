@@ -4,3 +4,4 @@
 @import './lib/action';
 @import './lib/embedded-resource';
 @import './lib/link';
+@import './lib/list';
