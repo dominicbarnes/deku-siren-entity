@@ -1,17 +1,21 @@
 
-.SirenLink {
+.SirenEntity table {
   table-layout: fixed;
   border-collapse: collapse;
+  word-wrap: break-word;
   width: 100%;
-  margin-bottom: 1rem;
 }
 
-.SirenLink thead {
+.SirenEntity table + table {
+  margin-top: 1rem;
+}
+
+.SirenEntity thead {
   background-color: #eee;
 }
 
-.SirenLink th,
-.SirenLink td {
+.SirenEntity th,
+.SirenEntity td {
   text-align: left;
   border: 1px solid #999;
   padding: 0.5rem;

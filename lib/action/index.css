@@ -12,6 +12,14 @@
   border-bottom: 1px solid silver;
 }
 
+.SirenAction-class {
+  margin-bottom: 1rem;
+}
+
+.SirenAction-class label {
+  font-weight: bold;
+}
+
 .SirenAction-fields {
   padding: .5rem;
 }

@@ -1,7 +1,7 @@
 
+@import './lib/entities';
 @import './lib/entity';
-@import './lib/properties';
 @import './lib/action';
 @import './lib/embedded-resource';
-@import './lib/link';
 @import './lib/list';
+@import './lib/table';

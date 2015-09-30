@@ -29,8 +29,9 @@
 }
 
 .SirenEntity em {
-  padding: .2rem;
-  background-color: yellow;
+  font-weight: normal;
+  font-style: normal;
+  color: #aaa;
 }
 
 .SirenEntity em::before {
