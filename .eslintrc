@@ -1,3 +1,6 @@
 {
-  "extends": "@dominicbarnes/deku"
+  "extends": "@dominicbarnes/deku",
+  "rules": {
+    "require-jsdoc": 0
+  }
 }

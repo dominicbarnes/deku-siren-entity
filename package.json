@@ -15,7 +15,8 @@
     "eslint-plugin-react": "^3.2.1"
   },
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint --cache .",
+    "fix": "eslint --cache --fix .",
     "start": "duo-serve -u duo-babel,duo-myth example/index.{js,css}"
   }
 }
