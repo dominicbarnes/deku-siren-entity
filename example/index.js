@@ -11,10 +11,10 @@ let app = tree(
 );
 render(app, document.body);
 
-function onAction(form) {
-  console.info('siren action submitted', form);
+function onAction(action, data, form) {
+  console.info('siren action submitted', action, data, form);
 }
 
-function onLink(href) {
-  console.info('siren link requested', href);
+function onLink(link) {
+  console.info('siren link requested', link);
 }
