@@ -7,24 +7,27 @@
 ## Usage
 
 During development, this component is meant to be a fallback that can display
-a working browser for the siren API. As you flesh out your own interface, this
-component will be used less.
-
-**NOTE:** this assumes the [deku-siren-source](https://github.com/dominicbarnes/deku-siren-source)
-plugin is being used. It also relies on ES6 code via [babel](https://babeljs.io/).
+a working browser for a siren API. As you flesh out your own interface, this
+component will be used less. (or remove it entirely, but it makes a good debugging
+tool)
 
 ```js
 import dom from 'dekujs/virtual-element';
 import Entity from 'dominicbarnes/deku-siren-entity';
 
 
-export let propTypes = {
-  entity: 'siren:entity'
-};
-
 export function render({ props }) {
   let { entity } = props;
-  return <Entity entity={entity} />;
+
+  return <Entity entity={entity} onLink={follow} onAction={submit} />;
+
+  function follow(link, a) {
+    // use your client to follow the link to a new entity
+  }
+
+  function submit(action, data, form) {
+    // use your client to submit the action and get the next entity
+  }
 }
 ```
 
@@ -35,7 +38,7 @@ conditional. For example:
 if (entity.class.indexOf('home') > -1) {
   return <Home entity={entity} />;
 } else {
-  return <Entity entity={entity} />;
+  return <Entity entity={entity} onLink={follow} onAction={submit} />;
 }
 ```
 
