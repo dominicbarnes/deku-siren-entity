@@ -1,8 +1,8 @@
 
 /** @jsx dom */
 
-import dom from 'dekujs/virtual-element';
-import { render, tree } from 'dekujs/deku';
+import dom from 'virtual-element';
+import { render, tree } from 'deku';
 import * as Entity from '..';
 import resource from './resource.json';
 

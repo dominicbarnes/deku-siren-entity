@@ -12,8 +12,8 @@ component will be used less. (or remove it entirely, but it makes a good debuggi
 tool)
 
 ```js
-import dom from 'dekujs/virtual-element';
-import Entity from 'dominicbarnes/deku-siren-entity';
+import dom from 'virtual-element';
+import Entity from 'deku-siren-entity';
 
 
 export function render({ props }) {
