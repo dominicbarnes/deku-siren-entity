@@ -42,6 +42,7 @@
     "build-css": "cd src && find . -name *.css -exec cp -v {} ../lib/{} \\;",
     "build": "npm run build-js && npm run build-css",
     "test": "npm run lint",
-    "start": "npm run build && cd example && mako-serve"
+    "start": "npm run build && cd example && mako-serve",
+    "prepublish": "npm run build"
   }
 }
