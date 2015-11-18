@@ -1,0 +1,16 @@
+sudo: false
+language: node_js
+node_js:
+- stable
+install: npm update
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: npm
+  email: dominic@dbarnes.info
+  api_key:
+    secure: f/aI9V4aBkda/1aF4h5IrlrsAXlkqpJ/tIwKfNLGY1CTwDWJy0hQGdo1E8IGfQcQhXGte1EbJMSun3jGCBpxatVEo7hSpBMMTuJNWwe+pUdUZM/RO4zjGHFD/WYq/u8TJF0csEWHwvKxKXCohp8M5ynqG8fmQZ0sButHGE+WLtQFohipEmsEOkyoqU2t6STvK/JeV0o5o8UCbwa6fzaF7Ca/4UIWsVDtpO330FHvASGXDatJKUU1rbYr1QKvdVB8Cj/ZJcWGYRn2Ephmf1v+6kE2uF9PqmBb7TfBz+ihNxPKYFBrTOavY0ckG/vxACFiqZCow4ti0eFFIxI3lGy5VJqTgZjCuyQhFRA/HRlzzB+8scCIktyo1NGjBb80GgHIuppSwcrlYIKNAIMXeW3gRSdxsYoTKftYV7ZM7uUbb6VbbUiG3oGNNvC6ktTaZwfx/aPP/2cDOKS8So1PwBDGeONFPqI6uUudjagGyE41t5fL99l8EKSg3C37VMmkXdWUzCAyIDCET762kErFsjiifu8lNtyBaZu5wt8Y2chQ1xwXAWi+YgHPY2kLfbOwWnjh3jH4RngdEIyLZgOY0CrwP9CvOPSADtPDdnLd8ncj/fguycKcl0+uip6isgrfcGbu64AvA6zwN5Wyq7IFqvJ98fUNrPKDmORaDyGfJQ7T88o=
+  on:
+    tags: true
+    repo: dominicbarnes/deku-siren-entity
