@@ -28,6 +28,7 @@ node_modules
 
 # Build artifacts
 lib
+example/build
 
 # ESLint cache
 .eslintcache

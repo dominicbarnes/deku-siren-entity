@@ -3,7 +3,7 @@
 
 import dom from 'virtual-element';
 import { render, tree } from 'deku';
-import * as Entity from '..';
+import Entity from '..';
 import resource from './resource.json';
 
 let app = tree(
