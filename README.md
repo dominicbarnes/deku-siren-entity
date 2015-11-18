@@ -4,6 +4,11 @@
 > Primarily used during development, while still discovering the API you are
 > working with.
 
+[![npm version](https://img.shields.io/npm/v/deku-siren-entity.svg)](https://www.npmjs.com/package/deku-siren-entity)
+[![npm dependencies](https://img.shields.io/david/dominicbarnes/deku-siren-entity.svg)](https://david-dm.org/dominicbarnes/deku-siren-entity)
+[![npm dev dependencies](https://img.shields.io/david/dev/dominicbarnes/deku-siren-entity.svg)](https://david-dm.org/dominicbarnes/deku-siren-entity#info=devDependencies)
+[![build status](https://img.shields.io/travis/dominicbarnes/deku-siren-entity.svg)](https://travis-ci.org/dominicbarnes/deku-siren-entity)
+
 ## Usage
 
 During development, this component is meant to be a fallback that can display
