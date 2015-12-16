@@ -1,6 +1,6 @@
 {
   "name": "deku-siren-entity",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "repository": "dominicbarnes/deku-siren-entity",
   "main": "lib/index.js",
   "dependencies": {

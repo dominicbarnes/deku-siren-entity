@@ -1,4 +1,10 @@
 
+0.5.2 / 2015-12-16
+==================
+
+  * properties: print null/undef/objects as json
+  * links: if href is cross-domain, allow default behavior
+
 0.5.1 / 2015-11-17
 ==================
 
