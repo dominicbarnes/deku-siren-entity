@@ -4,6 +4,7 @@
   "repository": "dominicbarnes/deku-siren-entity",
   "main": "lib/index.js",
   "dependencies": {
+    "component-url": "^0.2.1",
     "deku-forms": "^1.0.0",
     "deku-grid": "^1.1.0",
     "is-absolute-url": "^2.0.0",
