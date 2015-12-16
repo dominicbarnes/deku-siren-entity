@@ -19,13 +19,19 @@ export function render({ props }) {
 
   function rows(data) {
     return Object.keys(data).map(key => {
-      let value = data[key];
       return (
         <tr>
           <th>{key}</th>
-          <td>{value}</td>
+          <td>{value(data[key])}</td>
         </tr>
       );
     });
+  }
+
+  function value(input) {
+    if (empty(input) || typeof input === 'object') {
+      return <pre>{JSON.stringify(input, null, 2)}</pre>;
+    }
+    return input;
   }
 }
